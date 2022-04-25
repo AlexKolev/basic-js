@@ -42,9 +42,9 @@ module.exports = {
 };
 
 
-console.log(dateSample('1'));// 22387 (or 22392 depending on formula used)
-console.log(dateSample('WOOT!'));// => false
-console.log(dateSample(-52892));
-console.log(dateSample('9000'));
+// console.log(dateSample('1'));// 22387 (or 22392 depending on formula used)
+// console.log(dateSample('WOOT!'));// => false
+// console.log(dateSample(-52892));
+// console.log(dateSample('9000'));
 // console.log(dateSample('3'));
 

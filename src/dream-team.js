@@ -28,7 +28,7 @@ module.exports = {
 	createDreamTeam
 };
 
-console.log(createDreamTeam(['Matt', ' ann', 'Dmitry', 'Max']));// => 'ADMM'
-console.log(createDreamTeam(['Olivia', 1111, 'Lily', 'Oscar', true, null]));// => 'LOO'
+// console.log(createDreamTeam(['Matt', ' ann', 'Dmitry', 'Max']));// => 'ADMM'
+// console.log(createDreamTeam(['Olivia', 1111, 'Lily', 'Oscar', true, null]));// => 'LOO'
 
-console.log(createDreamTeam(3));
+// console.log(createDreamTeam(3));
