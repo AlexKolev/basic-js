@@ -24,7 +24,7 @@ function transform(arr) {
 		throw new Error("'arr' parameter must be an instance of the Array!");
 	}
 	let retArr = [];
-	console.log(arr);
+	//console.log(arr);
 	for (let i = 0; i < arr.length; i++) {
 		switch (arr[i]) {
 			case '--discard-next':
