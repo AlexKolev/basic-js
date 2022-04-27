@@ -52,13 +52,3 @@ function repeater(str, options) {
 module.exports = {
 	repeater
 };
-
-console.log(repeater('la', { repeatTimes: 3 }));
-
-
-console.log(repeater(true, { repeatTimes: 3, separator: '??? ', addition: false, additionRepeatTimes: 2, additionSeparator: '!!!' }));
-//, 'truefalse!!!false??? truefalse!!!false??? truefalse!!!false');
-//   truefalse!!!false??? truefalse!!!false??? truefalse!!!false
-console.log(repeater(null, { repeatTimes: 3, separator: '??? ', addition: null, additionRepeatTimes: 3, additionSeparator: '!!!' }));
-//, 'nullnull!!!null!!!null??? nullnull!!!null!!!null??? nullnull!!!null!!!null');
-//	 nullnull!!!null!!!null??? nullnull!!!null!!!null??? nullnull!!!null!!!null
